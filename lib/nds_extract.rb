@@ -21,8 +21,9 @@ def directors_totals(nds)
   index = 0 
   dd = directors_database
   while index < nds.length do 
-    result << dd[index][:movies][:worldwide_gross]
+    result = dd[index][:movies][:worldwide_gross]
     index += 1
+    result
   nil
 end
 #:name[:title]([:studio],[worldwide_gross],[:release_year])
