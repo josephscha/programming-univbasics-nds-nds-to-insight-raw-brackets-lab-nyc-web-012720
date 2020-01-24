@@ -19,4 +19,5 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   nil
+  pp directors_database
 end
