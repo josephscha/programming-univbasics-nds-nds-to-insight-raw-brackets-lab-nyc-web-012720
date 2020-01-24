@@ -18,12 +18,6 @@ def directors_totals(nds)
   #
   #
   # Be sure to return the result at the end!
-  index = 0 
-  dd = directors_database
-  while index < nds.length do 
-    result = dd[index][:movies][:worldwide_gross]
-    index += 1
-    result
   nil
 end
 end
