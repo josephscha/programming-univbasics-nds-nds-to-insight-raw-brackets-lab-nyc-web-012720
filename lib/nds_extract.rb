@@ -26,4 +26,5 @@ def directors_totals(nds)
     result
   nil
 end
+end
 #:name[:title]([:studio],[worldwide_gross],[:release_year])
